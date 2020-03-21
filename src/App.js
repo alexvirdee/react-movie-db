@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 
 function App() {
   return (
@@ -7,6 +6,9 @@ function App() {
       <header>
         <h1>Movie Database</h1>
       </header>
+      <main>
+        <Search />
+      </main>
     </div>
   );
 }
