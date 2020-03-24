@@ -4,9 +4,9 @@ import Result from './Result';
 function Results({ results }) {
     return (
         <section className="results">
-           {results.map(result => (
-               <Result result={result} />
-           ))}
+            {results.map(result => {
+                console.log(result);
+            })}
         </section>
     )
 }
